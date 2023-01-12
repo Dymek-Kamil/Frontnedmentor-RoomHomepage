@@ -37,10 +37,6 @@ body {
   background-image: url("images/image-about-light.jpg");
   background-size: cover;
 }
-.last,
-.second {
-  display: none;
-}
 .main--img {
   position: absolute;
   width: 100%;
@@ -136,11 +132,14 @@ body {
   margin: 20px 0px 20px;
 }
 .shop--now {
-  color: var(--darkGrey);
+  color: black;
   text-align: left;
   letter-spacing: 15px;
   text-transform: uppercase;
   margin: 20px 0px 20px;
+}
+.shop--now:hover {
+  color: var(--darkGrey);
 }
 .furniture--description {
   display: flex;
