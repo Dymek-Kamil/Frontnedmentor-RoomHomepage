@@ -1,0 +1,8 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+:root {
+  --darkGrey: hsl(0, 0%, 63%);
+  --veryDarkGrey: hsl(0, 0%, 27%);
+}
