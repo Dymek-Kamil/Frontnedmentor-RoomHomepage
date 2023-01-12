@@ -164,3 +164,16 @@ body {
   line-height: 1.3em;
   font-size: 18px;
 }
+
+.animacja {
+  animation: fadingIn 2s linear;
+}
+
+@keyframes fadingIn {
+  0% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
