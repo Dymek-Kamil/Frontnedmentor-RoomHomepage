@@ -11,7 +11,7 @@
 body {
   height: 100vh;
   display: grid;
-  grid-template-columns: 25% 35% 15% 25%;
+  grid-template-columns: 30% 30% 10% 30%;
   grid-template-rows: 65% 35%;
   grid-template-areas:
     "main-img main-img img-desc img-desc"
@@ -98,8 +98,8 @@ body {
   position: absolute;
   bottom: 0;
   left: 0;
-  width: 200px;
-  height: 200px;
+  width: 190px;
+  height: 190px;
   display: flex;
   align-items: flex-end;
 }
@@ -141,4 +141,27 @@ body {
   letter-spacing: 15px;
   text-transform: uppercase;
   margin: 20px 0px 20px;
+}
+.furniture--description {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.furniture--text {
+  height: 100%;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.title--furniture {
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 8px;
+}
+.p--furniture {
+  color: var(--darkGrey);
+  line-height: 1.3em;
+  font-size: 18px;
 }
